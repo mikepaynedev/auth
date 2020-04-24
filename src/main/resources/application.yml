@@ -1,0 +1,21 @@
+server:
+  port: 9999
+oauth2:
+  accessTokenTtl: 300
+  refreshTokenTtl: 3600
+jwt:
+  signing-key: "ss65FSHrwIOxWgZResFdk79vow-SCWBy4grbz3XfX7_400jHq6QMetEdurNKlVMPa_9xHy0z-"
+users:
+  userList:
+    - badge: "L123456"
+      dn: "CN=username, OU=Some OU"
+      display_name: "my name"
+      roles:
+        - "role1"
+        - "role2"
+    - badge: "L567890"
+      dn: "CN=username2, OU=Some Other OU"
+      display_name: "user2 name"
+      roles:
+        - "role2"
+        - "role4"
